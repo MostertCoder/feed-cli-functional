@@ -1,0 +1,26 @@
+{
+  "name": "feed-cli-functional",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MostertCoder/feed-cli-functional.git"
+  },
+  "author": "Dominic Mostert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MostertCoder/feed-cli-functional/issues"
+  },
+  "homepage": "https://github.com/MostertCoder/feed-cli-functional#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
