@@ -14,8 +14,12 @@ describe('Get File Lines', () => {
         expect(result).to.be.a('array');
     });
 
-    it('should not be empty', () => {
-        expect(result).to.have.lengthOf.above(0);
+    it('should equal ["line 1", "line 2", "line 3"]', () => {
+        expect(result).to.deep.equal([
+            'line 1',
+            'line 2',
+            'line 3'
+        ]);
     });
 
     it('should throw an error', () => {
